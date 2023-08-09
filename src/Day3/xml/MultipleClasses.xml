@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Elvira/Mentoring_TestNG_MyCodes/src/Day3/xml">
+        <classes>
+            <class name="Day3.task.xmlIntro"></class>
+            <class name="Day3.task.MultipleClasses"></class>
+        </classes>
+    </test>
+</suite>

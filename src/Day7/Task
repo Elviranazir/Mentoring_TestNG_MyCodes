@@ -1,0 +1,20 @@
+Test Case 1: Login Test
+➢  Go to
+➢ Enter valid Username,password.
+➢ Click on the Login button.
+➢ Verify that you are logged in.
+
+Test Case 2: Create Customer
+➢ Click on Customers under the Customers menu.
+➢ Click the Add new button on the page
+➢ Fill in the form that opens and click the save button.
+➢ Verify that you have successfully created a Customer.
+
+Test Case 3: Edit Customer
+➢ Click on Customers.
+➢ Enter the information of the customer you have created
+➢ Click the Search button.
+➢ Verify that the record you have created has arrived.
+➢ Click the Edit button.
+➢ Change any information and click the save button.
+➢ Verify that the update was successful.

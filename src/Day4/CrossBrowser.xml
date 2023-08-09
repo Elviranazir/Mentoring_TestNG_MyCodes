@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+    <test  name="chrome browser">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="username" value="John Doe"/>
+        <parameter name="password" value="ThisIsNotAPassword"/>
+        <classes>
+            <class name="Day4.LoginTest"/>
+        </classes>
+    </test>
+
+    <test  name="Edge browser">
+        <parameter name="browser" value="edge"/>
+        <parameter name="username" value="John Doe"/>
+        <parameter name="password" value="ThisIsNotAPassword"/>
+        <classes>
+            <class name="Day4.LoginTest"/>
+        </classes>
+    </test>
+</suite>

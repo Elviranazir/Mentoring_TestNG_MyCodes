@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test  name="C:/Users/AHMET/IdeaProjects/testNG_B8/src/test/java/day3/xml">
+        <parameter name="username" value="John Doe"/>
+        <parameter name="password" value="ThisIsNotAPassword"/>
+        <classes>
+            <class name="Day4.LoginTest"/>
+        </classes>
+    </test>
+</suite>
